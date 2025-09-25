@@ -6,4 +6,11 @@ Console.WriteLine("Hello, World!");
 //Animal animal = new Animal();
 
 Dog dog = new Dog();
+dog.Name = "Fido";
 Cat cat = new Cat();
+cat.Name = "Whiskers";
+Console.WriteLine($"Dog's name: {dog.Name}");
+Console.WriteLine($"Cat's name: {cat.Name}");
+
+cat.Speak();
+dog.Speak();
